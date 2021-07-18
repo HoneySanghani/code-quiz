@@ -1,6 +1,7 @@
 var submitScore = document.createElement("button");
 var welcomeEl = document.querySelector("#start-quiz");
 submitScore.textContent = "Submit";
+/*to display main page of the quiz */
 displayMainScreen();
 
 function displayMainScreen() {

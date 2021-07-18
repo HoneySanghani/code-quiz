@@ -8,7 +8,7 @@ function displayMainScreen() {
   headingEl.textContent = "Start The Quiz";
 
   let descriptionScreen = document.createElement("p");
-  descriptionScreen.textContent = `Try to answer the following code-releated questions within the time limit.Keep in mind that incorrect answers will penalize your score/tine by 10 seconds!`;
+  descriptionScreen.textContent = `Try to answer the following code-releated questions within the time limit.Keep in mind that incorrect answers will penalize your score/time by 10 seconds!`;
 
   let startBtn = document.createElement("button");
   startBtn.innerHTML = "Start Quiz";

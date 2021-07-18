@@ -238,7 +238,7 @@ function displayResult(ans) {
   answerEl.innerHTML = `<div class="bottom-content"><p>${ans}</p></div>`;
   setInterval(() => {
     answerEl.innerHTML = "";
-  }, 2000);
+  }, 1000);
  
   containerEl.appendChild(answerEl);
 }

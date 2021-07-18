@@ -22,3 +22,42 @@ function displayMainScreen() {
   welcomeEl.appendChild(descriptionScreen);
   welcomeEl.appendChild(startBtn);
 }
+// Question Answers declared
+const questionsObj = [
+    {
+      question: "Commonly used data types DO NOT include:",
+      choices: { 1: "alerts", 2: "booleans", 3: "numbers", 4: "strings" },
+      answer: "1",
+    },
+    {
+      question: "The condition in an if / else statement in enclosed with _____.",
+      choices: {
+        1: "quotes",
+        2: "curly brackets",
+        3: "parentheses",
+        4: "square brackets",
+      },
+      answer: "3",
+    },
+    {
+      question: "Arrays is Javascript can be used to store _____.",
+      choices: {
+        1: "numbers and strings",
+        2: "other arrays",
+        3: "booleans",
+        4: "all of the above",
+      },
+      answer: "4",
+    },
+    {
+      question:
+        "String variables must be enclosed within _____ when being assigned to variables.",
+      choices: {
+        1: "commas",
+        2: "quotes",
+        3: "curly brackets",
+        4: "parentheses",
+      },
+      answer: "2",
+    },
+  ];

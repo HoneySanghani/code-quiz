@@ -1,11 +1,36 @@
-/* :root{
-    --primary-color:darkgray;
+:root{
+    --primary-color:#333;
+    --secondary-color:black;
+    --teritary-color:white;
 }
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px 10px;
+}
+.details a{
+    text-decoration: none;
+}
+/*heading for the page*/
 .heading{
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 3vw;
-} */
+}
+.heading-content{
+    text-align: center;
+    font-size: 1.5vw;
+}
+/*styling for the start button*/
+.start-btn{
+    background-color: var(--primary-color);
+    color: var(--teritary-color);
+    padding:10px 20px;
+    font-size: 1.5vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .form{
     display: flex;
     flex-direction:column;

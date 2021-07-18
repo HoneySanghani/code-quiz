@@ -8,29 +8,22 @@
     <title>Code-Quiz</title>
 </head>
 <body>
-    <form>
-        <div class="form">
-            <h2 class="question"></h2>
-            <div class="radio-btn">
-                <div>
-                    <input type="radio" name="radio_group" />
-                    <label class="option" id="a"></label>
-                </div>
-                <div>
-                    <input type="radio" name="radio_group" id="option2"/>
-                <label class="option" id="b"></label>
-                </div>
-               <div>
-                <input type="radio" name="radio_group" id="option3"/>
-                <label class="option" id="c"></label>
-               </div>
-               <div>
-                <input type="radio" name="radio_group"id="option4"/>
-                <label class="option" id="d"></label>
-               </div>
-            </div>
+    <section class="details">
+        <a href="#">view high score</a>
+        <p>time:<span>0</span></p>
+    </section>
+    <section class="start-quiz">
+        <h1 class="heading">Start The Quiz</h1>
+        <div class="heading-content">
+            <p>
+                Try to answer the following code-releated questions within the time limit.
+            </p>
+            <p>
+                Keep in mind that incorrect answers will penalize your score/tine by 10 seconds!
+            </p>
+            <button class="start-btn" onclick="questionsList()">Start Quiz</button>
         </div>
-    </form>
+    </section>
     <script src="./assests/js/script.js"></script>
 </body>
 </html>
